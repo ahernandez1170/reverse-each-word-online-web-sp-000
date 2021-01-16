@@ -1,4 +1,5 @@
 reverse_each_word(word)
   array = [] 
-  array.each do |word|
+  word.each do |word|
     puts "#{word}"
+end
