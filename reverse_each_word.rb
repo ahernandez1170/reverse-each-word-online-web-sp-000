@@ -1,7 +1,7 @@
 '../reverse_each_word.rb'
 
-reverse_each_word(word)
-  array = [] 
-  word.each do |words|
-    puts "#{word}"
+def reverse_each_word(words)
+  wordss.collect do |word|
+    "I love #{words} on my burgers"
+  end
 end
